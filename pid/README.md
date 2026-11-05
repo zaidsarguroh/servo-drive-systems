@@ -20,7 +20,7 @@ $$u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt}$$
 In a real systems, the result cannot be applied to the plant because every actuator has a finite range. This range is modelled by the saturation block which limits the controller output.  
 
 $$
-u_sat = 
+u_{sat} = 
 \begin{cases} 
 u_{max} \text{, } & u > u_{max} \\
 u \text{, } & u_{min} \leq u \leq u_{max} \\
